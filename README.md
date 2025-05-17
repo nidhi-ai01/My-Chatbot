@@ -108,6 +108,21 @@ Copy
 Edit
 pip install -r requirements.txt
 
+Pipeline of the chatbot:
+
+[User Input]
+     ↓
+[Gradio Textbox]
+     ↓
+[chatbot_response() Python function]
+     ↓
+[Tokenizer → DialoGPT → Tokenizer]
+     ↓
+[Bot Response]
+     ↓
+[Gradio UI Output]
+     ↓
+[User sees reply]
 
 📜 License
 This project is open-source and licensed under the MIT License.
